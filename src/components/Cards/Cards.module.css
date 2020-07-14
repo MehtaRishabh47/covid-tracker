@@ -1,0 +1,33 @@
+.constainer{
+    margin:50px 0;
+}
+ .card{
+     margin:60px 2%!important;
+     padding:25px!important;
+     /* background-color: grey!important; */
+     /* color :white!important; */
+ }
+
+ .infected{
+     border-bottom:10px solid maroon;
+ }
+ .deaths{
+    border-bottom:10px solid black;
+}
+.recoverd{
+    border-bottom:10px solid green;
+}
+@media (max-width:780px){
+    .card{
+        margin:10px 2%!important;
+    }
+ }
+@media (max-width:450px){
+    .card{
+        margin:10px 2%!important;
+    }
+ }
+
+
+
+
